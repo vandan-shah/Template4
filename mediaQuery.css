@@ -1,0 +1,194 @@
+@media (max-width: 1600px) /*min: 1201*/{
+    .row {
+        max-width: 1140px;
+    }
+
+    /************************ SECTION *********************/
+    .table1 td {
+        max-width: 400px;
+    }
+
+    .table4 input {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .table3 button {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) /*min: 1025*/{
+    .row {
+        max-width: 970px;
+    }
+
+    html {
+        font-size: 18px;
+    }
+
+    /**************************** HEADER **************************/
+    .navbar li a {
+        padding: 0.3rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1024px) /*min: 769*/{
+    .row {
+        max-width: 750px;
+    }
+
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) /*min: 481*/{
+    .row {
+        max-width: 480px;
+    }
+
+    html {
+        font-size: 18px;
+    }
+
+    section {
+        margin-top: 1.5rem;
+    }
+
+    /************************* HEADER *********************/
+    .navbar {
+        background-color: black;
+        height: auto;
+        width: auto;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .nav img {
+        margin: 0;
+        height: 4rem;
+        width: auto;
+    }
+
+    .navbar ul {
+        margin-bottom: 0.5rem;
+    }
+
+    .navbar li a {
+        color: #eee;
+        text-decoration: none;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .navbar input {
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        background-color: #fff;
+    }
+
+    form {
+        margin-bottom: 0.5rem;
+    }
+
+    /**************************** SECTION *********************/
+    .grid {
+        display: block;
+    }
+
+    .table1 td {
+        width: 40rem;
+        padding: 0.5rem;
+    }
+
+    .table1 {
+        margin-bottom: 1rem;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        border-left: none;
+        border-right: none;
+        border-radius: 0%;
+    }
+
+    .table2,
+    .table3,
+    .table4,
+    .table5,
+    .table6 {
+        margin-bottom: 1rem;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        border-left: none;
+        border-right: none;
+        border-radius: 0%;
+    }
+
+    .card-container {
+        margin-bottom: 2rem;
+    }
+
+    .table4 input {
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        min-width: 25rem;
+        background-image: none;
+        border: 1px solid #999;
+    }
+
+    .container {
+        width: 25rem;
+        text-align: center;
+        border: 1px solid #e2e2e2;
+        color: white;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) /*min: 321*/{
+    .row {
+        max-width: 300px;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    /************************ SECTION *********************/
+    .table4 input {
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        min-width: 20rem;
+        background-image: none;
+        border: 1px solid #999;
+    }
+
+    .container {
+        width: 20rem;
+        text-align: center;
+        border: 1px solid #e2e2e2;
+        color: white;
+        border-radius: 0.25rem;
+        margin-right: 0.5rem;
+    }
+}
